@@ -1,0 +1,27 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "~/.config/fastfetch/archaon.txt",
+    "color": {
+      "1": "green"
+    },
+    "type": "file"
+  },
+  "display": { "separator": "  ", "color": "green" },
+  "modules": [
+    {"type": "title", "format": "\u001b[92m{user-name}\u001b[0m\u001b[96m@\u001b[0m\u001b[92m{host-name}\u001b[0m"},
+    "separator",
+    {"type": "os",      "key": "  OS     "},
+    {"type": "kernel",  "key": "  Kernel "},
+    {"type": "uptime",  "key": "󰔟  Uptime "},
+    {"type": "shell",   "key": "  Shell  "},
+    {"type": "wm",      "key": "  WM     "},
+    {"type": "terminal","key": "  Term   "},
+    {"type": "cpu",     "key": "󰻠  CPU    "},
+    {"type": "gpu",     "key": "󰍹  GPU    "},
+    {"type": "memory",  "key": "󰍛  RAM    "},
+    {"type": "disk",    "key": "󰋊  Disk   "},
+    "separator",
+    {"type": "colors",  "paddingLeft": 2, "symbol": "circle"}
+  ]
+}
